@@ -18,11 +18,9 @@ class AnchorBlockTune {
      * @param settings tuneに設定項目
      * @param block tuneに設定されてるblock
      */
-    constructor({ api, data, settings, block}) {
+    constructor({ api, data, settings, block }) {
         this.api = api;
-        this.block = block;
-        this.settings = settings;
-        this.data = data || { }
+        this.data = data || { };
     }
 
     /**
@@ -41,7 +39,7 @@ class AnchorBlockTune {
 
         wrapperInput.addEventListener('input', (event) => {
             // Allow only the following characters
-            let value = event.target.value.replace(/[^a-z0-9_-]/gi, ''),
+            let value = event.target.value.replace(/[^a-z0-9_-]/gi, '');
 
             // limit the length of the anchor
             /*if (valueLength > this._settings.anchorLength) {
