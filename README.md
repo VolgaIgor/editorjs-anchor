@@ -4,6 +4,9 @@ Append field with anchor to any block.
 ## Preview
 ![Preview image](https://github.com/VolgaIgor/editorjs-anchor/raw/main/asset/screenshot.png)
 
+### Required
+- Editor.js v2.20+
+
 ## Installation
 
 ### Download to your project's source dir
