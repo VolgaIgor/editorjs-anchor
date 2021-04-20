@@ -1,7 +1,6 @@
 module.exports = {
   entry: './src/index.js',
   mode: "production",
-  target: ["web", "es5"],
   module: {
     rules: [
       {
@@ -38,5 +37,6 @@ module.exports = {
     publicPath: '/',
     filename: 'bundle.js',
     library: 'AnchorBlockTune',
+    libraryTarget: 'umd'
   }
 };
