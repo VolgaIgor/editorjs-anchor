@@ -1,6 +1,6 @@
 {
   "name": "editorjs-anchor",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "main": "./dist/bundle.js",
   "license": "MIT",
   "keywords": [
