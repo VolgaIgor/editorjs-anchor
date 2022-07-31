@@ -50,7 +50,7 @@ You can add a localized string
 new Editorjs({
   // ...
   tools: {
-    anchorTune: AnchorBlockTune
+    anchorTune: AnchorTune
   },
   i18n: {
     tools: {
