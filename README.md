@@ -21,7 +21,7 @@ var editor = EditorJS({
   // ...
   tools: {
     // ...
-    anchorTune: AnchorBlockTune
+    anchorTune: AnchorTune
   },
   tunes: ['anchorTune']
   // ...
@@ -34,7 +34,7 @@ var editor = EditorJS({
   // ...
   tools: {
     // ...
-    anchorTune: AnchorBlockTune,
+    anchorTune: AnchorTune,
     header: {
       class: Header,
       tunes: ['anchorTune']
@@ -63,7 +63,7 @@ new Editorjs({
 ```
 
 ## Output data
-Example for [Header](https://github.com/editor-js/header)
+Example for [Header block](https://github.com/editor-js/header)
 ```json
 {
   "type": "header",
@@ -78,3 +78,4 @@ Example for [Header](https://github.com/editor-js/header)
   }
 }
 ```
+If the anchor field is empty, then the tune data will not be serialized into JSON.

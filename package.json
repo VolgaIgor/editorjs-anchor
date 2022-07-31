@@ -1,6 +1,6 @@
 {
   "name": "editorjs-anchor",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "main": "./dist/bundle.js",
   "license": "MIT",
   "keywords": [
@@ -32,5 +32,5 @@
   "homepage": "https://github.com/VolgaIgor/editorjs-anchor#readme",
   "dependencies": {},
   "author": "VolgaIgor <shuvalovii@yandex.ru>",
-  "description": "Anchor tune tool for Editor.js"
+  "description": "Tune for adding anchor to Editor.js Blocks"
 }
