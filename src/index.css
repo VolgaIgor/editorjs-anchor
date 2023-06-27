@@ -1,6 +1,6 @@
 .cdx-anchor-tune-wrapper {
-    background: rgba(232,232,235,.49);
-    border: 1px solid rgba(226,226,229,.2);
+    background: rgba(232, 232, 235, .49);
+    border: 1px solid rgba(201,201,204,.48);
     border-radius: 6px;
     padding: 3px 2px;
     display: grid;
@@ -9,8 +9,11 @@
 }
 
 .cdx-anchor-tune-icon {
-    line-height: 1;
-    padding: 0 3px;
+    width: 26px;
+    height: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .cdx-anchor-tune-icon svg {
