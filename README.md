@@ -21,6 +21,16 @@ Include module at your application
 import AnchorTune from 'editorjs-anchor';
 ```
 
+### Load from CDN
+
+You can load a specific version of the package from jsDelivr CDN.
+
+Require this script on a page with Editor.js.
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/editorjs-anchor"></script>
+```
+
 ### Download to your project's source dir
 
 1. Upload folder `dist` from repository
