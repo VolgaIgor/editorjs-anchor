@@ -1,4 +1,4 @@
-# Anchor Block Tune for Editor.js 2.20
+# Anchor Block Tune for Editor.js
 Append field with anchor to any block.
 
 ## Preview
@@ -8,6 +8,18 @@ Append field with anchor to any block.
 - Editor.js v2.20+
 
 ## Installation
+### Install via NPM
+Get the package
+
+```shell
+$ npm i editorjs-anchor
+```
+
+Include module at your application
+
+```javascript
+import AnchorTune from 'editorjs-anchor';
+```
 
 ### Download to your project's source dir
 
